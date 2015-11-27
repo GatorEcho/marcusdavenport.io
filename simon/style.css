@@ -1,0 +1,197 @@
+input[type=checkbox] {
+    visibility: hidden;
+}
+
+.strict {
+    width: 40px;
+    height: 40px;
+    background: #000;
+    margin: -95px 0 0 85px;
+    border-radius: 100%;
+    position: absolute;
+}
+
+.strict label {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 100px;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    z-index: 1;
+    background: #212121;
+}
+
+.strict input[type=checkbox]:checked + label {
+    background: red;
+}
+
+.strict-label {
+    color: white;
+    font-family: 'Russo One', sans-serif;
+    margin: 2px 0 0 40px;
+    font-size: 23px
+}
+
+.blue {
+    background: #2196F3;
+    border-radius: 0 0 375px 0;
+    border-bottom: solid 25px;
+    border-right: solid 25px;
+    border-left: solid 5px;
+    border-top: solid 5px;
+    transform-origin: left top;
+}
+
+.blue.active {
+    background: #3dbbff;
+}
+
+.blue:active {
+    background: #3dbbff;
+}
+
+.button {
+    cursor: pointer;
+    float: left;
+    height: 350px;
+    margin: 5px 0 0 px;
+    width: 350px;
+    border-color: #212121;
+    transition: background, .1s;
+    pointer-events: none;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -325px 0 0 -380px;
+    min-width: 760px;
+}
+
+.control {
+    width: 45px;
+    height: 45px;
+    background: red;
+    border-radius: 85px;
+    text-align: center;
+    position: absolute;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+}
+
+.control i {
+    margin: 9px 0 0 3px;
+    ;
+}
+
+.control-board {
+    width: 200px;
+    height: 100px;
+    background: #212121;
+    position: absolute;
+    margin: 333px 0 0 280px;
+    border-radius: 5px;
+}
+
+.count {
+    display: table-cell;
+    vertical-align: middle;
+    background: black;
+    width: 75px;
+    height: 90px;
+    border-style: solid;
+    border-color: #212121;
+    border-width: 5px;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    color: red;
+    font-size: 55px;
+    margin: 7px 0 0 7px;
+    font-family: 'Russo One', sans-serif;
+}
+
+.green {
+    background: #4CAF50;
+    border-radius: 375px 0 0 0;
+    border-top: solid 25px;
+    border-left: solid 25px;
+    border-right: solid 5px;
+    border-bottom: solid 5px;
+    border-color: #212121;
+    transform-origin: right bottom;
+}
+
+.green.active {
+    background: #00E676;
+}
+
+.green:active {
+    background: #00E676;
+}
+
+.red {
+    background: #F44336;
+    border-radius: 0 375px 0 0;
+    border-top: solid 25px;
+    border-right: solid 25px;
+    border-left: solid 5px;
+    border-bottom: solid 5px;
+    border-color: #212121;
+    transform-origin: left bottom;
+}
+
+.red.active {
+    background: #ff1d0d;
+}
+
+.red:active {
+    background: #ff1d0d;
+}
+
+.reset-button {
+    margin: -48px 0 0 145px;
+}
+
+.start-button {
+    margin: -48px 0 0 85px;
+}
+
+.wrapper{
+    margin-top:7px;
+}
+
+.yellow {
+    background: #FFEB3B;
+    border-radius: 0 0 0 375px;
+    border-bottom: solid 25px;
+    border-left: solid 25px;
+    border-right: solid 5px;
+    border-top: solid 5px;
+    border-color: #212121;
+    transform-origin: right top;
+}
+
+.yellow.active {
+    background: #fffb00;
+}
+
+.yellow:active {
+    background: #fffb00;
+}
+
+h1 {
+    position: absolute;
+    margin: -55px 0 0 225px;
+    font-size: 45px;
+    font-family: 'Russo One', sans-serif;
+}

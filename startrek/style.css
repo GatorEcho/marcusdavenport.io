@@ -1,0 +1,256 @@
+body {
+  background-color: black;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/231853/023768280_prevstill.jpeg);*/
+
+}
+
+.LCARSContainer {
+  position:absolute;
+  left:50%;
+  margin-left:-527px;
+  height: 100%;
+  float: left;
+  padding-bottom: 50px;
+  min-width: 930px;
+}
+
+.LCARSText {
+  color: black;
+  font-family: 'Sarpanch', sans-serif;
+  text-align: right;
+  margin-right: 7px;
+}
+
+.TopLCARS1 {
+  float: left;
+  margin-left: 125px;
+  margin-top: 220px;
+  border-radius: 20px 0px 0px 0px;
+  background-color: #CC6666;
+  height: 50px;
+  width: 300px;
+}
+
+.TopLCARS2 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #9999FF;
+  width: 15px;
+  height: 50px;
+}
+
+.TopLCARS3 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #CC9966;
+  width: 100px;
+  height: 50px;
+}
+
+.TopLCARS4 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #9999FF;
+  width: 15px;
+  height: 50px;
+}
+
+.TopLCARS5 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #CC6666;
+  width: 50px;
+  height: 50px;
+}
+
+.TopLCARS6 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #9999FF;
+  width: 15px;
+  height: 50px;
+}
+
+.TopLCARS7 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #FF9900;
+  width: 80px;
+  height: 50px;
+}
+
+.TopLCARS8 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #9999FF;
+  width: 15px;
+  height: 50px;
+}
+
+.TopLCARS9 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #CC99CC;
+  width: 150px;
+  height: 20px;
+}
+
+.TopLCARS10 {
+  margin-top: 220px;
+  margin-left: 5px;
+  float: left;
+  background-color: #9999FF;
+  border-radius: 0% 50% 50% 0%;
+  width: 20px;
+  height: 20px;
+}
+
+.LeftLCARS1 {
+  float: left;
+  margin-left: 125px;
+  height: 125px;
+  width: 75px;
+  border-radius: 0px 0px 0px 0px;
+  background-color: #CC6666;
+}
+
+.LeftLCARS2 {
+  position: relative;
+  float: left;
+  margin-top: 130px;
+  margin-left: -75px;
+  height: 75px;
+  width: 65px;
+  background-color: #FF9900;
+}
+
+.LeftLCARS3 {
+  float: left;
+  margin-top: 210px;
+  margin-left: -75px;
+  height: 75px;
+  width: 65px;
+  background-color: #CC99CC;
+}
+
+.LeftLCARS4 {
+  float: left;
+  margin-top: 290px;
+  margin-left: -75px;
+  height: 55px;
+  width: 65px;
+  background-color: #9999CC;
+}
+
+.LeftLCARS5 {
+  float: left;
+  margin-top: 350px;
+  margin-left: -75px;
+  height: 85px;
+  width: 75px;
+  border-radius: 0px 0px 0px 20px;
+  background-color: #CC6666;
+}
+
+.BottomLCARS1 {
+  margin-top: 620px;
+  margin-left: 200px;
+  width: 35px;
+  height: 85px;
+  background-color: #CC6666;
+}
+
+.BottomLCARS2 {
+  margin-top: -85px;
+  margin-left: 345px;
+  width: 250px;
+  height: 85px;
+  background-color: #CC6666;
+}
+
+.BottomLCARS3 {
+  margin-top: -85px;
+  margin-left: 600px;
+  width: 30px;
+  height: 85px;
+  background-color: #CC9966;
+}
+
+.quoteContainer {
+  float: left;
+  position: relative;
+  margin: -30px 0px 0px -10px;
+  background-color: black;
+  /*background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/231853/023768280_prevstill.jpeg);*/
+  border-radius: 50px 0px 0px 50px;
+  width: 600px;
+  height: 420px;
+}
+
+.title {
+  text-align: center;
+  font-family: 'Sarpanch', sans-serif;
+  font-size: 3.5em;
+  color: #FF9900;
+}
+
+.quote {
+  margin-top: 25px;
+  margin-left: 20px;
+  color: #FFFF99;
+  text-align: center;
+  font-size: 2em;
+}
+
+.author {
+  color: #9999FF;
+  float: right;
+  text-align: right;
+  font-size: 1.2em;
+  margin:0;
+}
+
+.generateButton {
+  float: left;
+  position: relative;
+  bottom: -390px;
+  right: 550px;
+  background-color: #FF9900;
+  width: 100px;
+  height: 45px;
+  cursor: pointer;
+  color: black;
+  text-align: center;
+  font-size: 1.07em;
+  font-family: 'Sarpanch', sans-serif;
+}
+
+.generateButtonCap {
+  float: left;
+  position: relative;
+  bottom: -345px;
+  right: 155px;
+  background-color: #9999FF;
+  border-radius: 0% 50% 50% 0%;
+  width: 45px;
+  height: 45px;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/231853/twitter-24.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+}
+
+.link {
+  margin-left: 25px;
+  text-decoration: underline;
+  color: #CC9966;
+
+}

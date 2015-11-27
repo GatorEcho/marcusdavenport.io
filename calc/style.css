@@ -1,0 +1,66 @@
+
+#CE p{
+  font-size: 65px;
+  margin-top: -5px;
+}
+
+#equal{
+  background: #f50057;
+  width: 208px;
+}
+
+#equal:hover{
+  background:#FF4081;
+}
+
+#non{
+  cursor:auto;
+}
+
+#non:hover {
+  background: #9e9e9e;
+}
+
+.button{
+  background: #424242;
+  float:left;
+  height: 75px;
+  width: 104px;
+  text-align:center;
+  color:#FAFAFA;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.button p{
+  margin-top: 15px;
+}
+
+.button:hover{
+  background:#616161;
+}
+
+.container{
+  position:absolute;
+  left: 50%;
+  margin: 25px 0 0 -215px;
+  font-family: sans-serif;
+}
+
+.screen{
+  float:left;
+  width:416px;
+  height: 100px;
+  background: #009688;
+  color:#FAFAFA;
+  text-align:right;
+  font-size: 50px;
+}
+
+.screen p{
+  margin-right: 3px;
+}
+
+body{
+  background:#F5F5F5;
+}

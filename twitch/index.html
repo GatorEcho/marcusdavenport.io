@@ -1,0 +1,36 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script language="javascript" type="text/javascript" src="jquery-1.11.3.js"></script>
+    <script language="javascript" type="text/javascript" src="script.js"></script>
+</head>
+<title>Twitch Stream</title>
+<div class='left-nav'>
+    <div class='filter-button' id='all'>
+        <p>All</p>
+    </div>
+    <div class='filter-button' id='offline'>
+        <p>Offline</p>
+    </div>
+    <div class='filter-button' id='online'>
+        <p>Online</p>
+    </div>
+    <a href='http://www.twitch.tv' target='_blank'><i class='fa fa-twitch'></i></a>
+</div>
+
+<div class='row'>
+    <div class='container' id='main'>
+        <!-- DOM Stream Elements are added here -->
+        <div id='the-end'></div>
+    </div>
+</div>
+<!--Submission Pop-up remains hidden until use -->
+<div class='submit-popup'>
+    <input type='text' name='add-stream' id='add-stream-text' placeholder='Stream Name'></input><i class='fa fa-close'></i>
+    <div id='submit-button'>
+        <p>Add Stream</p>
+    </div>
+    <p id='add-status'></p>
+</div>
