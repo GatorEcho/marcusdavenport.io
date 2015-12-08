@@ -50,7 +50,7 @@ $(document).ready(function () {
     //Requests 10 random pages from the API and lists them as search results
     $('.random-button').click(function () {
         $('.container').empty();
-        $.getJSON('http://en.wikipedia.org/w/api.php?format=json&action=query&list=random&rnlimit=10&callback=?').then(function (data) {
+        $.getJSON('http://en.wikipedia.org/w/api.php?format=json&action=query&list=random&rnlimit=10&rnnamespace=0&callback=?').then(function (data) {
             for (var value in data.query.random) {
                 $('.container').append("<a href='http://en.wikipedia.org?curid=" + data.query.random[value].id + "' target='_blank'><div class='entry animated fadeInUp'><p class='title'>" + data.query.random[value].title + "</p><p class='text'></p></a>");
             }
