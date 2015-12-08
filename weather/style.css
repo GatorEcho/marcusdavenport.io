@@ -130,13 +130,13 @@
 #temp {
 	color: black;
 	font-size: 10em;
-	margin-top: -150px;
+	margin-top: -120px;
 	text-align: center;
 	transition: text 2s;
  }
 #unit{
   float: left;
-  margin: -225px 0px 0px 300px;
+  margin: -245px 0px 0px 290px;
   font-size: 3em;
 }
 #weather-box {
