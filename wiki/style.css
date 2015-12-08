@@ -49,6 +49,10 @@
     width: 100px;
 }
 
+.search-button .fa{
+  margin-top: 3px;
+}
+
 .text {
     color: #8F8F8F;
     font-size: 18px;
