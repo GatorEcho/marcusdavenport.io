@@ -165,7 +165,7 @@ $('.play').click(function(){
 
   //Click square for player's turn
   //Draw the move, check for wins, then make computer's move
-    $('.square').click(function(){
+    $('.square').click(function() {
       $('#p' + $(this).attr('id')).html(human);
       boardState[$(this).attr('id')] = 1;
       $(this).css('pointer-events', 'none');
@@ -187,4 +187,3 @@ $('.play').click(function(){
       }
     });
 });
-
