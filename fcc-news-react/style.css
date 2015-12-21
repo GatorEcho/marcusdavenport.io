@@ -1,0 +1,118 @@
+.container-fluid {
+    text-align: center !important;
+}
+
+.col-md-4,
+.col-lg-3,
+.col-xs-6 {
+    float: none !important;
+}
+
+.fcc-logo {
+    width: 125px;
+}
+
+.logo {
+    height: 300px;
+    left: 0;
+    position: absolute;
+    width: 300px;
+    border-bottom: solid 5px;
+}
+
+.overlay {
+    background: #000;
+    top: 0;
+    height: 300px;
+    left: 0;
+    opacity: 0;
+    position: absolute;
+    transition: opacity .3s;
+    width: 100%;
+}
+
+.overlay p {
+    color: white;
+    font-size: 20px;
+    font-family: 'comfortaa';
+    position: absolute;
+    margin: 5px 5px 0 5px !important;
+    text-align: left;
+}
+
+.overlay .likes {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 5px 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.story {
+    display: inline-block;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 10px 10px 5px #241507;
+    height: 400px;
+    margin: 0 10px 20px 10px;
+    opacity: 1;
+    text-align: center;
+    transition: opacity 0.5s;
+    width: 300px !important;
+}
+
+.story .author {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0 0 0 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #337AB7;
+    text-transform: capitalize;
+}
+
+.story .date {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0 5px 0 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.story .title {
+    position: absolute;
+    margin: 300px 0 5px -10px;
+    line-height: 105%;
+    text-align: left;
+    font-size: 22px;
+    font-family: 'Boogaloo';
+    color: black;
+}
+
+.story:hover .overlay {
+    opacity: 0.9;
+}
+
+body {
+    background: #4A2B0F !important;
+    overflow-x: hidden;
+}
+
+h1 {
+    color: white !important;
+    font-family: 'comfortaa' !important;
+    font-size: 75px !important;
+    text-align: center;
+}
+
+h2 {
+    color: white !important;
+    font-family: 'comfortaa' !important;
+    font-size: 50px !important;
+    margin-top: -20px;
+    text-align: center;
+}
