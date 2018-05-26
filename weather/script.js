@@ -90,7 +90,7 @@ $(document).ready(function() {
     //to store the API response data
     var reload = function() {
         //api call to get current conditions
-        $.get("http://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&cnt=6&APPID=1a0075ceb23c8596e0371403a7831774", function(response) {
+        $.get("https://api.openweathermap.org/data/2.5/weather?lat=" + lat + "&lon=" + lon + "&units=imperial&cnt=6&APPID=1a0075ceb23c8596e0371403a7831774", function(response) {
             //default to celsius if not a holdout country
             if(!holdouts.indexOf(response.country) && firstRun){
               $('#f-button').css('background-color', 'gray');
@@ -230,7 +230,7 @@ $(document).ready(function() {
             }
         });
         //api call to get 5 day forecast
-        $.get("http://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + lon + "&units=imperial&cnt=6&APPID=1a0075ceb23c8596e0371403a7831774", function(response) {
+        $.get("https://api.openweathermap.org/data/2.5/forecast/daily?lat=" + lat + "&lon=" + lon + "&units=imperial&cnt=6&APPID=1a0075ceb23c8596e0371403a7831774", function(response) {
             //set min/max forecast for current day
             $('#hi-lo').text("Hi: " + Math.round(celCon(response.list[0].temp.max)) + " | Lo: " + Math.round(celCon(response.list[0].temp.min)));
             for (var i = 1; i <= 5; i++) {
@@ -284,7 +284,7 @@ $(document).ready(function() {
 
     //callback function for ip-location
     var ipLocation = function(callback) {
-        $.getJSON("http://ip-api.com/json", function(response) {
+        $.getJSON("https://ip-api.com/json", function(response) {
             callback(response);
         });
     };

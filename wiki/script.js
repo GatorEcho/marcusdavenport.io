@@ -87,7 +87,9 @@ $(document).ready(function () {
             },
             minLength: 2,
             delay: 300,
-            select: function () {
+            select: function (event, ui) {
+              console.log(ui.item.value)
+                $('.search-box').val(ui.item.value)
                 $('.search-button').click();
             }
         });

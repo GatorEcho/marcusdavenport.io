@@ -62,7 +62,7 @@ $(document).ready(function() {
     ["Immortality consists largely of boredom.", "Zefram Cochrane", "Metamorphosis (TOS)", "http://en.memory-alpha.wikia.com/wiki/Metamorphosis_(episode)"],
     ["I'm a doctor, not an escalator", "Dr. McCoy", "Friday's Child (TOS)", "http://en.memory-alpha.wikia.com/wiki/Friday's_Child_(episode)"],
     ["I am superior, sir, in many ways, but I would gladly give it up to be human.", "Data", "Encounter at Farpoint (TNG)", "http://en.memory-alpha.wikia.com/wiki/Encounter_at_Farpoint_(episode)"],
-    ["Do not approach me unannounced—especially while I am eating.", "Worf", "Genesis (TNG)", "http://en.memory-alpha.wikia.com/wiki/Genesis_(episode)"],
+    ["Do not approach me unannounced, especially while I am eating.", "Worf", "Genesis (TNG)", "http://en.memory-alpha.wikia.com/wiki/Genesis_(episode)"],
     ["There is no room in my heart for shame.", "Worf", "Birthright Part II (TNG)", "http://en.memory-alpha.wikia.com/wiki/Birthright%2C_Part_II_(episode)"],
     ["I don't have all the answers; I've never been dead before.", "Ro Laren", "The Next Phase (TNG)", "http://en.memory-alpha.wikia.com/wiki/The_Next_Phase_(episode)"],
     ["The first duty of every Starfleet officer is to the truth, whether it's scientific truth or historical truth or personal truth! It is the guiding principle on which Starfleet is based! If you can't find it within yourself to stand up and tell the truth about what happened, you don't deserve to wear that uniform!", "CPT Jean Luc Picard", "The First Duty (TNG)", "http://en.memory-alpha.wikia.com/wiki/The_First_Duty_(episode)"],
