@@ -178,21 +178,32 @@ $('.stream').css('opacity', '1');
             $('#add-stream-text').val('');
         } else {
             //if not, check to see if it is a valid channel name
-//TODO: Fix this API call
-            $.get('https://api.twitch.tv/kraken/channels/' + $('#add-stream-text').val()).then(function(channel) {
+
+            $.ajax({
+            type: 'GET',
+            url: 'https://api.twitch.tv/helix/users?', //'https://api.twitch.tv/helix/users?login=' + value,
+            headers: {'Client-ID': 'x7fhewv9s5ohjlcp7ke8lfeoppsa5d'},
+            data: {'login': $('#add-stream-text').val()},
+            success: function(channel){
+                if(!channel.data.length == 0){
                 //If successful, add stream name to streamObj and reload
-                streamObj.push($('#add-stream-text').val().toLowerCase());
-                $('#main').empty();
-                $('#main').append("<div id=\'the-end\'</div>");
-                streamObj.forEach(loadChannels);
-                $('#the-end').after("<div class=\'stream col-lg-4 col-md-3 col-xs-6\'" +
-                    "id=\'add-button\'>+</div>");
-                //Reset submission dialog
-                $('#add-status').text($('#add-stream-text').val() + ' added successfully!');
-                $('#add-stream-text').val('');
-                //Display error message if stream doesn't exist
-            }, function() {
-                $('#add-status').text('Could not find stream ' + $('#add-stream-text').val());
+                  streamObj.push($('#add-stream-text').val().toLowerCase());
+                  $('#main').empty();
+                  $('#main').append("<div id=\'the-end\'</div>");
+                  streamObj.forEach(loadChannels);
+                  $('#the-end').after("<div class=\'stream col-lg-4 col-md-3 col-xs-6\'" +
+                  "id=\'add-button\'>+</div>");
+                  //Reset submission dialog
+                  $('#add-status').text($('#add-stream-text').val() + ' added successfully!');
+                  $('#add-stream-text').val('');
+                  //Display error message if stream doesn't exist
+                }else{
+                  $('#add-status').text('Error retrieving stream: ' + $('#add-stream-text').val());
+                }
+            },
+            error: function() {
+                $('#add-status').text('Error retrieving stream: ' + $('#add-stream-text').val());
+              }
             });
         }
     });
