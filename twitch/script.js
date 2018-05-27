@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     //streamObj holds the stream names, set to defaults
-    var streamObj = ["OverwatchLeague"/*,"freecodecamp", "riotgames", "trumpsc", "kittyplaysgames", "devwars", "lirik", "robotcaleb", "sodapoppin", "leveluplive", "streamerhouse", "noobs2ninjas",  "reynad27", "gassymexican"*/];
+    var streamObj = ["freecodecamp", "OverwatchLeague", "shroud", "TSM_Myth", "summit1g", "CapcomFighters", "Ninja", "loltyler1", "DisguisedToastHS", "jukes"];
     var testObj = [];
     //This variable has three possible states, 0, 1, or 2
     //It is used to show All, Offline Only, or Online Ondly
