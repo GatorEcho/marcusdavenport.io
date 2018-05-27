@@ -284,7 +284,7 @@ $(document).ready(function() {
 
     //callback function for ip-location
     var ipLocation = function(callback) {
-        $.getJSON("https://ip-api.com/json", function(response) {
+        $.getJSON("http://ip-api.com/json", function(response) {
             callback(response);
         });
     };
