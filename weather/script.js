@@ -284,7 +284,7 @@ $(document).ready(function() {
 
     //callback function for ip-location
     var ipLocation = function(callback) {
-        $.getJSON("http://ip-api.com/json", function(response) {
+        $.getJSON("https://api.ipdata.co", function(response) {
             callback(response);
         });
     };
@@ -314,8 +314,8 @@ $(document).ready(function() {
         }
         //fall back to ip-location on geolocation failure
         ipLocation(function(response) {
-            lat = response.lat;
-            lon = response.lon;
+            lat = response.latitude;
+            lon = response.longitude;
             console.log("Geolocation is not supported by this browser or disallowed. Location set by IP lookup.");
             //draw page
             reload();
