@@ -64,7 +64,7 @@ $(document).ready(function() {
 
   return $.ajax({
     type: 'GET',
-    url: 'https://api.twitch.tv/helix/users?', //'https://api.twitch.tv/helix/users?login=' + value,
+    url: 'https://api.twitch.tv/helix/users?', 
     headers: {'Client-ID': 'x7fhewv9s5ohjlcp7ke8lfeoppsa5d'},
     data: {'login': value},
     success: function(channel){
